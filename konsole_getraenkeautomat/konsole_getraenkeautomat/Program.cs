@@ -10,6 +10,7 @@ namespace konsole_getraenkeautomat
     {
         static void Main(string[] args)
         {
+         Console.WriteLine("HI");
         }
     }
 }
