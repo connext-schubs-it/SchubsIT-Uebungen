@@ -10,7 +10,9 @@ namespace konsole_getraenkeautomat
     {
         static void Main(string[] args)
         {
-         Console.WriteLine("HI");
+            Console.Title = "Hello";
+            Console.WriteLine("Halloo");
+            Console.ReadKey();
         }
     }
 }
