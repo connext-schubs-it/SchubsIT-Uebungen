@@ -13,7 +13,7 @@ namespace Aufgabe3b
             // Programmbezeichnung
             Console.WriteLine("Programm: Eingabeüberprüfung");
 
-            // Eingabeaufforderung
+            // Eingabeaufforderung (Name wird eingelesen)
             Console.Write("Name?: ");
             string eingabe = Console.ReadLine();
 
@@ -22,7 +22,7 @@ namespace Aufgabe3b
             {
                 Console.WriteLine("Hallo " + eingabe + " !");
 
-                // Erneute Eingabeaufforderung
+                // Erneute Eingabeaufforderung (Name wird erneut eingelesen)
                 Console.Write("Name?: ");
                 eingabe = Console.ReadLine();
             }
