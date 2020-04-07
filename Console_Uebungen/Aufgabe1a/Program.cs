@@ -10,26 +10,23 @@ namespace Aufgabe1a
    {
       static void Main(string[] args)
       {
-         //Konsolen Titel wird eingetragen
-         Console.Title = "Aufgabe 1a";
+          // Programmbezeichnung
+          Console.WriteLine("Programm: Vorstellung gegenüber Konsole");
 
-         //Vorname wird eingegeben
-         Console.Write("Bitte gib deinen Voramen ein: ");
-         string vorname = Console.ReadLine();
+          // Vorname wird eingegeben
+          Console.Write("Gebe deinen Voramen ein: ");
+          string vorname = Console.ReadLine();
 
-         //Nachname wird eingegeben
-         Console.Write("Bitte gib deinen Nachnamen ein: ");
-         string nachname = Console.ReadLine();
+          // Nachname wird eingegeben
+          Console.Write("Gebe deinen Nachnamen ein: ");
+          string nachname = Console.ReadLine();
 
-         //Alter wird eingegeben
-         Console.Write("Bitte gib dein Alter ein: ");
-         int alter = Convert.ToInt32(Console.ReadLine());
+          // Alter wird eingegeben
+          Console.Write("Gebe dein Alter ein: ");
+          int alter = Convert.ToInt32(Console.ReadLine());
 
-         //Vorname, Nachname und Alter wird ausgegeben
-         Console.WriteLine("Hallo, " + vorname + " " + nachname + " du bist " + alter + " Jahre alt.");
-
-         //Durch Tastendruck wird Konsolenanwendung beendet
-         Console.ReadKey();
+          // Vorname, Nachname und Alter werden ausgegeben
+          Console.WriteLine("Hallo, " + vorname + " " + nachname + " du bist " + alter + " Jahre alt.");
       }
    }
 }
