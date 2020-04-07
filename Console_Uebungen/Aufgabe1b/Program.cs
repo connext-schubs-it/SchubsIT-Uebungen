@@ -10,6 +10,9 @@ namespace Aufgabe2b
     {
         static void Main(string[] args)
         {
+            // Programmbezeichnung
+            Console.WriteLine("Programm: Rechnen mit Zahlen");
+
             // Initialisierung
             double ergebnis;
 

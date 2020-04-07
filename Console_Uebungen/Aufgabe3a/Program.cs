@@ -10,20 +10,24 @@ namespace Aufgabe3a
    {
       static void Main(string[] args)
       {
-         //Die obere Grenze wird eingegeben
-         Console.Write("Bitte gib eine obere Grenze ein: ");
-         int obereGrenze = Convert.ToInt32(Console.ReadLine());
+          // Programmbezeichnung
+          Console.WriteLine("Programm: Zählschleife");
 
-         //Die Start-Zahl wird eingegeben
-         Console.Write("Bitte gib eine Start-Zahl ein: ");
-         int StartZahl = Convert.ToInt32(Console.ReadLine());
+          // Die obere Grenze wird eingegeben
+          Console.Write("Gebe eine obere Grenze ein: ");
+          int obereGrenze = Convert.ToInt32(Console.ReadLine());
 
-         // Schleifenkopf
-         while (StartZahl <= obereGrenze)
-         { // Schleifenrumpf
-            Console.WriteLine(StartZahl);
-            StartZahl = StartZahl + 1; // oder: zähler++ um um 1 zu erhöhen;
-         }
+          // Der Startwert wird eingegeben
+          Console.Write("Gebe einen Startwert ein: "); 
+          int startwert = Convert.ToInt32(Console.ReadLine());
+
+          // Schleifenkopf
+          while (startwert <= obereGrenze)
+          { 
+             // Schleifenrumpf
+             Console.WriteLine(startwert);
+             startwert = startwert + 1; // oder: zähler++, um den Startwert um 1 zu erhöhen;
+          }
       }
    }
 }

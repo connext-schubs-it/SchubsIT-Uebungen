@@ -10,20 +10,23 @@ namespace Aufgabe2a
    {
       static void Main(string[] args)
       {
-         Console.Write("Bitte gib Dein Alter ein: ");
+          // Programmbezeichnung
+          Console.WriteLine("Programm: Altersüberprüfung");
 
-         string eingabe = Console.ReadLine();
-         int alter = Convert.ToInt32(eingabe);
+          // Eingabeaufforderung (Alter wird eingelesen)
+          Console.Write("Bitte gebe dein Alter ein: ");
+          int alter = Convert.ToInt32(Console.ReadLine()); 
 
-         if (alter < 18)
-         {
-            Console.WriteLine("Du bist leider noch nicht erwachsen.");
-         }
+          // Überprüfe auf Volljährigkeit
+          if (alter < 18)
+          { 
+              Console.WriteLine("Du bist leider noch nicht erwachsen.");
+          }
 
-         else
-         {
-            Console.WriteLine("Willkommen in der Welt der Erwachsenen!");
-         }
+          else
+          {
+              Console.WriteLine("Willkommen in der Welt der Erwachsenen!");
+          }
       }
    }
 }
