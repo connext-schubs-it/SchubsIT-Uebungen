@@ -33,22 +33,22 @@ namespace Aufgabe2c
             {
                 case "+":
                     ergebnis = zahl1 + zahl2;
-                    Console.WriteLine(ergebnis);
+                    Console.WriteLine("Das Ergebnis ist " + ergebnis);
                     break;
 
                 case "-":
                     ergebnis = zahl1 - zahl2;
-                    Console.WriteLine(ergebnis);
+                    Console.WriteLine("Das Ergebnis ist " + ergebnis);
                     break;
 
                 case "*":
                     ergebnis = zahl1 * zahl2;
-                    Console.WriteLine(ergebnis);
+                    Console.WriteLine("Das Ergebnis ist " + ergebnis);
                     break;
 
                 case "/":
                     ergebnis = zahl1 / zahl2;
-                    Console.WriteLine(ergebnis);
+                    Console.WriteLine("Das Ergebnis ist " + ergebnis);
                     break;
 
                 default:

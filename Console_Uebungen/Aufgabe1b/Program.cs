@@ -32,22 +32,22 @@ namespace Aufgabe2b
             if (eingabe == "+")
             {
                 ergebnis = zahl1 + zahl2;
-                Console.WriteLine(ergebnis);
+                Console.WriteLine("Das Ergebnis ist " + ergebnis);
             }
             else if (eingabe == "-")
             {
                 ergebnis = zahl1 - zahl2;
-                Console.WriteLine(ergebnis);
+                Console.WriteLine("Das Ergebnis ist " + ergebnis);
             }
             else if (eingabe == "*")
             {
                 ergebnis = zahl1 * zahl2;
-                Console.WriteLine(ergebnis);
+                Console.WriteLine("Das Ergebnis ist " + ergebnis);
             }
             else if (eingabe == "/")
             {
                 ergebnis = zahl1 / zahl2;
-                Console.WriteLine(ergebnis);
+                Console.WriteLine("Das Ergebnis ist " + ergebnis);
             }
             else // sonst...
             {
