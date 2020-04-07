@@ -26,7 +26,7 @@ namespace Aufgabe3a
           { 
              // Schleifenrumpf
              Console.WriteLine(startwert);
-             startwert = startwert + 1; // oder: zähler++, um den Startwert um 1 zu erhöhen;
+             startwert = startwert + 1; // oder: startwert++, um den Startwert um 1 zu erhöhen;
           }
       }
    }
