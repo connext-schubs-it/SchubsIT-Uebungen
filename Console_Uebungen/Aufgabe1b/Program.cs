@@ -51,7 +51,7 @@ namespace Aufgabe2b
             }
             else // sonst...
             {
-                Console.WriteLine("Ungültiger Operator");
+                Console.WriteLine("Ungültiger Operator!");
             }
         }
     }
