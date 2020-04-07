@@ -10,28 +10,46 @@ namespace Aufgabe2b
     {
         static void Main(string[] args)
         {
-            // Benutzereingaben den Variablen zuordnen
+            // Initialisierung
+            double ergebnis;
+
+            // 1. Eingabeaufforderung
             Console.Write("Gebe eine Zahl ein: ");
-            int zahl1 = Convert.ToInt32(Console.ReadLine());
+            double zahl1 = Convert.ToDouble(Console.ReadLine());
 
+            // 2. Eingabeaufforderung
             Console.Write("Gebe eine weitere Zahl ein: ");
-            int zahl2 = Convert.ToInt32(Console.ReadLine());
+            double zahl2 = Convert.ToDouble(Console.ReadLine());
 
-            // Einfache Berechnungen durchführen und Ergebnisse in Variablen speichern
-            int summe = zahl1 + zahl2;
-            int differenz = zahl1 - zahl2;
-            int produkt = zahl1 * zahl2;
-            int quotient = zahl1 / zahl2;
-            int rest = zahl1 % zahl2;
+            // 3. Eingabeaufforderung
+            Console.Write("Gebe einen Operator ein: ");
+            string eingabe = Console.ReadLine();
 
-            // Ausgangswerte und Ergebnisse formatiert ausgeben
-            Console.WriteLine(zahl1 + " + " + zahl2 + " = " + summe);
-            Console.WriteLine(zahl1 + " - " + zahl2 + " = " + differenz);
-            Console.WriteLine(zahl1 + " * " + zahl2 + " = " + produkt);
-            Console.WriteLine(zahl1 + " / " + zahl2 + " = " + quotient);
-            Console.WriteLine(zahl1 + " % " + zahl2 + " = " + rest);
-
-            Console.ReadKey();
+            // Überprüfung des Operators
+            if (eingabe == "+")
+            {
+                ergebnis = zahl1 + zahl2;
+                Console.WriteLine(ergebnis);
+            }
+            else if (eingabe == "-")
+            {
+                ergebnis = zahl1 - zahl2;
+                Console.WriteLine(ergebnis);
+            }
+            else if (eingabe == "*")
+            {
+                ergebnis = zahl1 * zahl2;
+                Console.WriteLine(ergebnis);
+            }
+            else if (eingabe == "/")
+            {
+                ergebnis = zahl1 / zahl2;
+                Console.WriteLine(ergebnis);
+            }
+            else // sonst...
+            {
+                Console.WriteLine("Ungültiger Operator");
+            }
         }
     }
 }
