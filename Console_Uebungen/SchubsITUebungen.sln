@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgabe2c", "Aufgabe2c\Aufg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "getraenkeautomat", "getraenkeautomat\getraenkeautomat.csproj", "{775F3101-94D1-42C6-8B64-794D5D7FF5FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgabe3aAlternative", "Aufgabe3aAlternative\Aufgabe3aAlternative.csproj", "{B64FAD58-BBC8-4C08-8824-30D7B2670B2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{775F3101-94D1-42C6-8B64-794D5D7FF5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{775F3101-94D1-42C6-8B64-794D5D7FF5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{775F3101-94D1-42C6-8B64-794D5D7FF5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B64FAD58-BBC8-4C08-8824-30D7B2670B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64FAD58-BBC8-4C08-8824-30D7B2670B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64FAD58-BBC8-4C08-8824-30D7B2670B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64FAD58-BBC8-4C08-8824-30D7B2670B2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

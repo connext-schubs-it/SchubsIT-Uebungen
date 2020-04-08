@@ -21,12 +21,11 @@ namespace Aufgabe3a
           Console.Write("Gebe einen Startwert ein: "); 
           int startwert = Convert.ToInt32(Console.ReadLine());
 
-          // Schleifenkopf
+          // Zählschleife
           while (startwert <= obereGrenze)
           { 
-             // Schleifenrumpf
-             Console.WriteLine(startwert);
-             startwert = startwert + 1; // oder: startwert++, um den Startwert um 1 zu erhöhen;
+              Console.WriteLine(startwert);
+              startwert = startwert + 1; // oder: startwert++, um den Startwert um 1 zu erhöhen;
           }
       }
    }
