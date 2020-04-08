@@ -66,7 +66,6 @@ namespace getraenkeautomat
                 {
                     Console.WriteLine("Getränk " + i + " von " + anzahl + " wurde ausgegeben.");
                 }
-                w
                 Console.WriteLine("Vielen Dank. Entnehmen Sie nun Ihre Getränke.");
             }
 
