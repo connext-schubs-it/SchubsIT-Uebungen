@@ -20,7 +20,7 @@ namespace Aufgabe2a
           // Überprüfe auf Volljährigkeit
           if (alter < 18)
           { 
-              Console.WriteLine("Du bist leider noch nicht erwachsen.");
+              Console.WriteLine("Genieße die Kinderzeit!");
           }
 
           else
