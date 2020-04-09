@@ -10,9 +10,11 @@ namespace getraenkeautomat
     {
         static void Main(string[] args)
         {
+            //variablen festgelegt
             double preis = 0;
             double eingezahlt = 0;
 
+            //Textausgabe
             Console.WriteLine("Programm: Getränkeautomat");
             Console.WriteLine("Drücken Sie die Taste");
             Console.WriteLine("[1] für Cola - 1.20€");
@@ -21,8 +23,10 @@ namespace getraenkeautomat
             Console.WriteLine("[0] für Beenden");
             Console.Write("Eingabe: ");
 
+            //Eingabe der Auswahl
             int eingabe = Convert.ToInt32(Console.ReadLine());
 
+            //Hier werden die Cases erstellt
             switch (eingabe)
             {
                 case 1:
@@ -38,6 +42,7 @@ namespace getraenkeautomat
                     break;
             }
 
+            //if-Bedingung mit Schleife für den Preis, Betrag, Restbetrag und Rückbetrag
             if (eingabe != 0)
             {
                 Console.Write("Geben Sie die gewünschte Anzahl von Getränken ein: ");
